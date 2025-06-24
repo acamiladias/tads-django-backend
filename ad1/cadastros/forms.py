@@ -21,5 +21,5 @@ class AlunoForm(forms.ModelForm):
             # Dados Residenciais
             "rua", "numero", "complemento", "bairro", "cidade", "estado", "cep",
             # Dados Institucionais
-            "status", "curso_interesse", "periodo_interesse",
+            "status", "curso_interesse", "periodo_interesse", # verificar a necessidade de mais
         ]
